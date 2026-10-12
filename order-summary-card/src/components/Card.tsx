@@ -6,7 +6,7 @@ export default function OrderSummary() {
     <main className="min-h-screen bg-[#e0e8ff] flex flex-col justify-center items-center p-4">
       <section className="bg-white rounded-2xl max-w-sm overflow-hidden shadow-lg text-center">
         <Image
-          src="./image/illustration-hero.svg"
+          src="/image/illustration-hero.svg"
           alt="illustration"
           width={500}
           height={400}
@@ -23,7 +23,7 @@ export default function OrderSummary() {
           <div className="w-full bg-[#f5f7ff] p-4 rounded-xl flex items-center justify-between">
             <div className="flex items-center gap-4">
               <Image
-                src="./image/icon-music.svg"
+                src="/image/icon-music.svg"
                 alt="music icon"
                 width={48}
                 height={48}

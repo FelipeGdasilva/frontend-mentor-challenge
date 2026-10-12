@@ -30,7 +30,7 @@ export default function Huddle() {
           so does your audience. Create connections with your users as you
           engage in genuine discussion.
         </p>
-        <button className="bg-white text-purple-700 font-semibold md:w-50 md:h-15 px-10 py-3 rounded-full shadow-lg hover:bg-magenta-500 hover:text-pink-400 transition-all cursor-pointer">Register</button>
+        <button className="bg-white text-purple-700 font-semibold md:w-50 md:h-15 px-10 py-3 rounded-full shadow-lg hover:bg-huddle-magenta hover:text-pink-400 transition-all cursor-pointer">Register</button>
       </div>
        </section>
     </main>
