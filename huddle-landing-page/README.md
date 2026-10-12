@@ -22,13 +22,11 @@ Esta é uma solução para o desafio [Huddle landing page with single introducto
 Os usuários devem ser capazes de:
 
 - Visualizar o layout ideal para a página dependendo do tamanho da tela do dispositivo (Mobile e Desktop).
-- Ver estados de *hover* para todos os elementos interativos na página.
+- Ver estados de _hover_ para todos os elementos interativos na página.
 
 ### Screenshot
 
 ![Demonstração do Projeto](./public/Demo.gif)
-
-
 
 ### Links
 
@@ -55,10 +53,10 @@ Alguns aprendizados chave:
    Uso de sistemas de grelha adaptados para posicionar o conteúdo de texto e imagem lado a lado no desktop e centralizados no mobile.
 
 2. **Estilização de Estados Interativos:**
-   Aplicação de transições suaves e efeitos de *hover* nos botões de registo e nas redes sociais.
+   Aplicação de transições suaves e efeitos de _hover_ nos botões de registo e nas redes sociais.
 
 3. **Arquitetura de Monorepo:**
-   Organização do projeto dentro de um monorepo centralizado no GitHub e configuração do *Root Directory* na Vercel para deploys independentes.
+   Organização do projeto dentro de um monorepo centralizado no GitHub e configuração do _Root Directory_ na Vercel para deploys independentes.
 
 ---
 

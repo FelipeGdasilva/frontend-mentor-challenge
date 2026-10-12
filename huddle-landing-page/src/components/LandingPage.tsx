@@ -23,16 +23,55 @@ export default function Huddle() {
             className="w-full h-auto max-w-none md:w-[125%] md:translate-x-8 md:translate-y-14"
           />
         </div>
-      <div className="col-span-1 md:col-span-5 text-white flex flex-col items-center md:items-start text-center md:text-left gap-6 p-4 -mt-6 md:-mt-12 ">
-        <h2 className="font-extrabold text-3xl md:text-5xl leading-tight mb-4"> Build The Community{" "}<br className="hidden md:inline"/>Your Fans Will Love</h2>
-        <p className="text-2xl font-light opacity-90">
-          Huddle re-imagines the way we build communities. You have a voice, but
-          so does your audience. Create connections with your users as you
-          engage in genuine discussion.
-        </p>
-        <button className="bg-white text-purple-700 font-semibold md:w-50 md:h-15 px-10 py-3 rounded-full shadow-lg hover:bg-huddle-magenta hover:text-pink-400 transition-all cursor-pointer">Register</button>
-      </div>
-       </section>
+        <div className="col-span-1 md:col-span-5 text-white flex flex-col items-center md:items-start text-center md:text-left gap-6 p-4 -mt-6 md:-mt-12 ">
+          <h2 className="font-extrabold text-3xl md:text-5xl leading-tight mb-4">
+            {" "}
+            Build The Community <br className="hidden md:inline" />
+            Your Fans Will Love
+          </h2>
+          <p className="text-2xl font-light opacity-90">
+            Huddle re-imagines the way we build communities. You have a voice,
+            but so does your audience. Create connections with your users as you
+            engage in genuine discussion.
+          </p>
+          <button className="bg-white text-purple-700 font-semibold md:w-50 md:h-15 px-10 py-3 rounded-full shadow-lg hover:bg-huddle-magenta hover:text-pink-400 transition-all cursor-pointer">
+            Register
+          </button>
+          
+          <div className="flex justify-center md:justify-start gap-4 mt-8">
+            <a
+              href="https://facebook.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 border border-white rounded-full flex items-center justify-center text-white hover:text-huddle-magenta hover:border-huddle-magenta transition-colors"
+              aria-label="Facebook"
+            >
+              
+              <span className="text-sm font-bold">F</span>
+            </a>
+
+            <a
+              href="https://twitter.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 border border-white rounded-full flex items-center justify-center text-white hover:text-huddle-magenta hover:border-huddle-magenta transition-colors"
+              aria-label="Twitter"
+            >
+              <span className="text-sm font-bold">T</span>
+            </a>
+
+            <a
+              href="https://instagram.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-10 h-10 border border-white rounded-full flex items-center justify-center text-white hover:text-huddle-magenta hover:border-huddle-magenta transition-colors"
+              aria-label="Instagram"
+            >
+              <span className="text-sm font-bold">I</span>
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
   );
 }
