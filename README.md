@@ -16,7 +16,7 @@ Este repositório reúne as minhas resoluções dos desafios do [Frontend Mentor
 ## 🎯 Desafio em Destaque: Huddle Landing Page
 
 ### 📸 Screenshot
-![Huddle Landing Page Preview](./huddle-landing-page/public/favicon.ico)
+![Huddle Landing Page Preview](./huddle-landing-page/public/Demo.gif)
 
 ### 🔗 Links Oficiais
 - **Desafio no Frontend Mentor:** [Huddle Landing Page Challenge](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-3_22UStandard)
