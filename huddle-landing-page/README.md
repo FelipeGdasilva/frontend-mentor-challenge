@@ -28,7 +28,7 @@ Os usuários devem ser capazes de:
 
 ![Demonstração do Projeto](./public/Demo.gif)
 
-*(Dica: substitua o caminho acima por uma imagem ou GIF do seu projeto rodando!)*
+
 
 ### Links
 
