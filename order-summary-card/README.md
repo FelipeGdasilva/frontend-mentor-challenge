@@ -33,7 +33,7 @@ _(Dica: substitua o caminho acima por uma imagem ou GIF do seu projeto rodando!)
 ### Links
 
 - **URL do Repositório:** https://github.com/FelipeGdasilva/Order-summary-card
-- **URL do Site (Deploy Vercel):** https://order-summary-card-one.vercel.app/
+- **URL do Site (Deploy Vercel):** https://order-summary-card-v2-one.vercel.app/
 
 ---
 

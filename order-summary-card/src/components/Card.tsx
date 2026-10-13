@@ -1,4 +1,3 @@
-"use client";
 import Image from "next/image";
 
 export default function OrderSummary() {
@@ -13,7 +12,7 @@ export default function OrderSummary() {
         />
 
         <div className="py-8 px-6 flex flex-col items-center text-center gap-4">
-          <h2 className="text-2xl text-[#1f2e55] font-bold">Order Summary</h2>
+          <h1 className="text-2xl text-[#1f2e55] font-bold">Order Summary</h1>
 
           <p className="text-sm text-[#7280a7]">
             You can now listen to millions of songs, audiobooks, and podcasts on
@@ -29,7 +28,7 @@ export default function OrderSummary() {
                 height={48}
               />
               <div className="text-left">
-                <h3 className="font-bold text-[#1f2e55]">Annual Plan</h3>
+                <h2 className="font-bold text-[#1f2e55]">Annual Plan</h2>
                 <p className="text-sm text-[#7280a7]">$59.99/year</p>
               </div>
             </div>
