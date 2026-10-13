@@ -6,9 +6,9 @@ export default function OrderSummary() {
       <section className="bg-white rounded-2xl max-w-sm overflow-hidden shadow-lg text-center">
         <Image
           src="/image/illustration-hero.svg"
-          alt="illustration"
-          width={500}
-          height={400}
+          alt=""
+          width={450}
+          height={220}
         />
 
         <div className="py-8 px-6 flex flex-col items-center text-center gap-4">
@@ -23,7 +23,7 @@ export default function OrderSummary() {
             <div className="flex items-center gap-4">
               <Image
                 src="/image/icon-music.svg"
-                alt="music icon"
+                alt=""
                 width={48}
                 height={48}
               />
@@ -62,7 +62,7 @@ export default function OrderSummary() {
         </a>
         . Coded by{" "}
         <a
-          href="https://github.com/teu-usuario"
+          href="https://github.com/FelipeGdasilva"
           target="_blank"
           className="text-[#3829e0] font-bold hover:underline"
         >
