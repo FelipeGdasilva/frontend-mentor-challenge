@@ -1,11 +1,11 @@
 import Header from "../components/Header";
-import ImageUpload from "../components/Form/ImageUpload";
+import TicketForm from "../components/Form/TicketForm";
 
 export default function Home() {
   return (
     <div>
       <Header/>
-      <ImageUpload/>
+      <TicketForm/>
     </div>
   );
 }
