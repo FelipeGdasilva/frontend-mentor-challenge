@@ -4,36 +4,37 @@ Este repositório reúne as minhas resoluções dos desafios do [Frontend Mentor
 
 ## 📌 Desafios Concluídos
 
-| Desafio                     | Tecnologias           | Demo / Deploy                                                     |
-| :-------------------------- | :-------------------- | :---------------------------------------------------------------- |
-| **01. Order Summary Card**  | Next.js, Tailwind CSS | [Ver Projeto] (https://order-summary-card-one.vercel.app/ )       |
-| **02. Huddle Landing Page** | Next.js, Tailwind CSS | [Ver Projeto] (https://huddle-landing-page-indol-six.vercel.app/) |
+| Desafio | Tecnologias | Demo / Deploy |
+| :--- | :--- | :--- |
+| **01. Order Summary Card** | Next.js, Tailwind CSS | [Ver Projeto](https://order-summary-card-one.vercel.app/) |
+| **02. Huddle Landing Page** | Next.js, Tailwind CSS | [Ver Projeto](https://huddle-landing-page-indol-six.vercel.app/) |
+| **03. Conference Ticket Generator** | Next.js, TypeScript, Tailwind CSS, React Hooks | [Ver Projeto](https://frontend-mentor-challenge-bice.vercel.app/) |
 
 ---
 
----
+## 🎯 Desafio em Destaque: Conference Ticket Generator
 
-## 🎯 Desafio em Destaque: Huddle Landing Page
+### 📸 Captura de Ecrã
 
-### 📸 Screenshot
-
-![Huddle Landing Page Preview](./huddle-landing-page/public/Demo.gif)
+![Conference Ticket Generator Preview](./conference-ticket-generator/public/preview.gif)
 
 ### 🔗 Links Oficiais
 
-- **Desafio no Frontend Mentor:** [Huddle Landing Page Challenge](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-3_22UStandard)
-- **Ver Projeto ao Vivo (Vercel):** [Huddle Landing Page Demo](https://huddle-landing-page-indol-six.vercel.app/)
+- **Repositório do projeto:** [frontend-mentor-challenge](https://github.com/FelipeGdasilva/frontend-mentor-challenge)
+- **Pasta do componente:** [`/conference-ticket-generator`](./conference-ticket-generator)
+- **Ver Projeto ao Vivo (Vercel):** [Conference Ticket Generator Demo](https://frontend-mentor-challenge-bice.vercel.app/)
 
-### 💡 What I Learned
+### 💡 O que aprendi
 
-In this challenge, I built a two-column responsive layout using **Tailwind CSS Grid** and **Flexbox**. Key takeaways:
+Durante o desenvolvimento deste projeto, aprofundei os meus conhecimentos em React e Next.js, com foco especial em:
 
-- Configured hover and focus interactive states for buttons and social icons.
-- Built a mobile-first responsive structure that seamlessly switches to a 12-column grid layout on desktop.
-- Deployed through Vercel using Root Directory settings within a monorepo setup.
+- **Renderização Condicional:** Como alternar de forma limpa e fluida entre diferentes estados de componentes (o formulário e o cartão do bilhete de sucesso) com base no estado da aplicação.
+- **Manipulação de Inputs e Uploads de Ficheiros:** Captura e tratamento de arquivos de imagem locais no browser utilizando `URL.createObjectURL` para renderizar pré-visualizações instantâneas de avatares.
+- **Tipagem com TypeScript:** Resolução de erros de tipagem em eventos de formulário (`React.FormEvent`), garantindo uma base de código mais robusta e segura.
+- **Layout Responsivo e Alinhamento com Tailwind:** Ajuste de espaçamentos complexos e posicionamento de elementos gráficos (como o cartão de bilhete personalizado) para que se adaptassem perfeitamente a diferentes tamanhos de ecrã sem quebrar a integridade do design.
 
-### 🛠️ Challenges & Reflection
+### 🛠️ Desafios e Reflexão
 
-Structuring layouts cleanly in Next.js while keeping each Frontend Mentor challenge modular inside a monorepo repository.
+Gestão bem-sucedida de uma estrutura modular em monorepositório no Next.js, manipulação segura de URLs de objetos de imagem dinâmicos no lado do cliente, e garantia de um alinhamento responsivo pixel-perfect alinhado com os padrões de design do Frontend Mentor em dispositivos móveis e computadores.
 
 _Desenvolvido por Felipe._
