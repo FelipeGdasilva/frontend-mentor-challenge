@@ -16,7 +16,7 @@ Este repositório reúne as minhas resoluções dos desafios do [Frontend Mentor
 
 ### 📸 Captura de Ecrã
 
-![Conference Ticket Generator Preview](./conference-ticket-generator/public/preview.gif)
+![Conference Ticket Generator Preview](./conference-ticket-generator/assets/preview.gif)
 
 ### 🔗 Links Oficiais
 
