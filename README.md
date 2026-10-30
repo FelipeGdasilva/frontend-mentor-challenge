@@ -30,7 +30,7 @@ Durante o desenvolvimento deste projeto, aprofundei os meus conhecimentos em Rea
 
 - **Renderização Condicional:** Como alternar de forma limpa e fluida entre diferentes estados de componentes (o formulário e o cartão do bilhete de sucesso) com base no estado da aplicação.
 - **Manipulação de Inputs e Uploads de Ficheiros:** Captura e tratamento de arquivos de imagem locais no browser utilizando `URL.createObjectURL` para renderizar pré-visualizações instantâneas de avatares.
-- **Tipagem com TypeScript:** Resolução de erros de tipagem em eventos de formulário (`React.FormEvent`), garantindo uma base de código mais robusta e segura.
+- **Tipagem Estrita com TypeScript:** Utilização correta de `React.SubmitEvent` na manipulação do evento de envio do formulário, garantindo maior previsibilidade, prevenção do comportamento padrão com `preventDefault()` e tipagem segura do manipulador.
 - **Layout Responsivo e Alinhamento com Tailwind:** Ajuste de espaçamentos complexos e posicionamento de elementos gráficos (como o cartão de bilhete personalizado) para que se adaptassem perfeitamente a diferentes tamanhos de ecrã sem quebrar a integridade do design.
 
 ### 🛠️ Desafios e Reflexão
