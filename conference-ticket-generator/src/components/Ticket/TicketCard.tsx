@@ -1,6 +1,13 @@
 import Image from "next/image";
 
-export default function TicketCard(){
+interface TicketCardProps{
+    nome:string;
+    github:string;
+    avatar: string;
+    numero?: string;
+}
+
+export default function TicketCard( {nome, github, avatar, numero}: TicketCardProps){
     return(
         <main className="relative w-full flex flex-col items-center justify-center min-h-screen overflow-hidden">
             
@@ -26,13 +33,13 @@ export default function TicketCard(){
                     
                     <div className="flex flex-row justify-between items-center w-full">
                         <div className="flex items-center gap-x-3">
-                            <Image src="/assets/images/image-avatar.jpg" width={70} height={90} alt="avatar" className="rounded-2xl" />
+                            <Image src={ avatar|| "/assets/images/image-avatar.jpg"} width={70} height={90} alt="avatar" className="rounded-2xl"/>
                             <ul className="flex flex-col">
-                                <li className="text-2xl text-neutral-0 font-inconsolata">Felipe</li>  
+                                <li className="text-2xl text-neutral-0 font-inconsolata">{nome}</li>  
                                 <li className="flex items-center gap-x-1.5">
                                     <Image src="/assets/images/icon-github.svg" alt="icon-github" width={15} height={15} />
                                     <samp className="text-xs text-neutral-400 font-inconsolata">
-                                        github
+                                        {github}
                                     </samp> 
                                 </li>
                             </ul>
@@ -40,7 +47,9 @@ export default function TicketCard(){
 
                         <div className="flex items-center justify-center rotate-90 -translate-y-15">
                             <ul>
-                                <li className="text-2xl text-neutral-300 font-inconsolata tracking-wider">1995</li>
+                                <li className="text-2xl text-neutral-300 font-inconsolata tracking-wider">
+                                    {numero || "#04592"}
+                                </li>
                             </ul>
                         </div>
                     </div>
