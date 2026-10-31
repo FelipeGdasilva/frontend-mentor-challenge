@@ -9,6 +9,7 @@ import Image from "next/image";
 export default function Home() {
   const [nome, setNome] = useState("");
   const [github, setGithub] = useState("");
+  const [email, setEmail] = useState("");
   const [avatar, setAvatar] = useState("");
   const [ticketGerado, setTicketGerado] = useState(false);
 
@@ -45,14 +46,16 @@ export default function Home() {
         <>
           <Header />
           <TicketForm
-            nome={nome}
-            setNome={setNome}
-            github={github}
-            setGithub={setGithub}
-            avatar={avatar}
-            setAvatar={setAvatar}
-            geraticket={gerarTicket}
-          />
+  nome={nome}
+  setNome={setNome}
+  github={github}
+  setGithub={setGithub}
+  email={email}           
+  setEmail={setEmail}     
+  avatar={avatar}
+  setAvatar={setAvatar}
+  geraticket={gerarTicket}
+/>
         </>
       ) : (
        <div className="flex flex-col items-center gap-3 w-full max-w-xl text-center mt-4">
@@ -73,9 +76,10 @@ export default function Home() {
 
   
   <p className="text-neutral-300 text-base md:text-lg max-w-md">
-    We've emailed your ticket to your email and updates will be sent in the run up to the event.
-  </p>
-
+  We've emailed your ticket to{" "}
+  <span className="text-orange-500 font-medium">{email}</span>{" "}
+  and will send updates in the run up to the event.
+</p>
   
   <div className="mt-2 w-full flex justify-center">
     <TicketCard
