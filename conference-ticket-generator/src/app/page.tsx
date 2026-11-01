@@ -25,7 +25,6 @@ export default function Home() {
 
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-center overflow-x-hidden p-6">
-      
       <Image
         src="/assets/images/pattern-squiggly-line-top.svg"
         alt=""
@@ -41,55 +40,56 @@ export default function Home() {
         className="absolute bottom-0 left-0 pointer-events-none -z-10 hidden md:block"
       />
 
-      
       {!ticketGerado ? (
         <>
           <Header />
           <TicketForm
-  nome={nome}
-  setNome={setNome}
-  github={github}
-  setGithub={setGithub}
-  email={email}           
-  setEmail={setEmail}     
-  avatar={avatar}
-  setAvatar={setAvatar}
-  geraticket={gerarTicket}
-/>
+            nome={nome}
+            setNome={setNome}
+            github={github}
+            setGithub={setGithub}
+            email={email}
+            setEmail={setEmail}
+            avatar={avatar}
+            setAvatar={setAvatar}
+            geraticket={gerarTicket}
+          />
         </>
       ) : (
-       <div className="flex flex-col items-center gap-3 w-full max-w-xl text-center mt-4">
+        <div className="flex flex-col items-center gap-3 w-full max-w-xl text-center mt-4">
+          <div className="flex items-center gap-2">
+            <Image
+              src="/assets/images/logo-mark.svg"
+              alt="Logo"
+              width={30}
+              height={30}
+            />
+            <span className="font-bold text-xl text-white">Coding Conf</span>
+          </div>
 
-  <div className="flex items-center gap-2">
-    <Image src="/assets/images/logo-mark.svg" alt="Logo" width={30} height={30} />
-    <span className="font-bold text-xl text-white">Coding Conf</span>
-  </div>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
+            Congrats,{" "}
+            <span className="bg-linear-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">
+              {nome}
+            </span>
+            ! Your ticket is ready.
+          </h1>
 
-  
-  <h1 className="text-3xl md:text-5xl font-extrabold text-white tracking-tight leading-tight">
-    Congrats,{" "}
-    <span className="bg-linear-to-r from-orange-400 to-orange-500 bg-clip-text text-transparent">
-      {nome}
-    </span>
-    ! Your ticket is ready.
-  </h1>
+          <p className="text-neutral-300 text-base md:text-lg max-w-md">
+            We've emailed your ticket to{" "}
+            <span className="text-orange-500 font-medium">{email}</span> and
+            will send updates in the run up to the event.
+          </p>
 
-  
-  <p className="text-neutral-300 text-base md:text-lg max-w-md">
-  We've emailed your ticket to{" "}
-  <span className="text-orange-500 font-medium">{email}</span>{" "}
-  and will send updates in the run up to the event.
-</p>
-  
-  <div className="mt-2 w-full flex justify-center">
-    <TicketCard
-      nome={nome}
-      github={github}
-      avatar={avatar}
-      numero="#04815"
-    />
-  </div>
-</div>
+          <div className="mt-2 w-full flex justify-center">
+            <TicketCard
+              nome={nome}
+              github={github}
+              avatar={avatar}
+              numero="#04815"
+            />
+          </div>
+        </div>
       )}
     </div>
   );

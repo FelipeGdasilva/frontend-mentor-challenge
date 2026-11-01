@@ -25,7 +25,10 @@ export default function TicketForm({
   geraticket,
 }: TicketFormProps) {
   return (
-    <form onSubmit={geraticket} className="flex flex-col gap-y-4 w-full max-w-md">
+    <form
+      onSubmit={geraticket}
+      className="flex flex-col gap-y-4 w-full max-w-md"
+    >
       {/* Upload de Imagem */}
       <ImageUpload avatar={avatar} setAvatar={setAvatar} />
 
