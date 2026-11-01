@@ -29,10 +29,10 @@ export default function TicketForm({
       onSubmit={geraticket}
       className="flex flex-col gap-y-4 w-full max-w-md"
     >
-      {/* Upload de Imagem */}
+      
       <ImageUpload avatar={avatar} setAvatar={setAvatar} />
 
-      {/* Input de Nome */}
+      
       <InputField
         htmlFor="nome"
         id="nome"
@@ -42,7 +42,7 @@ export default function TicketForm({
         onChange={(e) => setNome(e.target.value)}
       />
 
-      {/* Input de Email Corrigido */}
+      
       <InputField
         htmlFor="email"
         id="email"
@@ -52,7 +52,7 @@ export default function TicketForm({
         onChange={(e) => setEmail(e.target.value)}
       />
 
-      {/* Input de GitHub */}
+    
       <InputField
         htmlFor="github"
         id="github"
