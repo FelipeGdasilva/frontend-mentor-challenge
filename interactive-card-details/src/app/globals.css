@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+ 
+--color-white-0: hsl(0, 100%, 100%);
+--color-gray-200: hsl(270, 3%, 87%);
+--color-gray-400: hsl(212, 12%, 71%);
+--color-purple-950: hsl(278, 68%, 11%);
+}
+
+
+body {
+  font-family: var(--font-space-grotesk), sans-serif;
+  font-weight: 500;
+}
