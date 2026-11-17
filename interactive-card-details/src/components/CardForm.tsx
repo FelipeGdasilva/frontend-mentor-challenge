@@ -7,26 +7,28 @@ interface FormProps{
 
 export default function CardForm(){
     return(
-        <form>
+
+        <form className="min-h-screen flex flex-col justify-center items-center">
             <div>
             <label>cardholder name</label>
-            <input></input>
+            <input type="text"></input>
             </div>
 
             <div>
             <label>card number</label>
-            <input></input>
+            <input type="text"></input>
             </div>
 
             <div>
             <label>Exp.Date</label>
-            <input></input>
+            <input type="text"></input>
             </div>
             
             <div>
             <label>cvc</label>
-            <input></input>
+            <input type="text"></input>
             </div>
+            <button type="button" className="w-full bg-purple-950 py-3 rounded-lg text-white font-medium hover:bg-gray-400 ">confirm</button>
         </form>
     )
 }
