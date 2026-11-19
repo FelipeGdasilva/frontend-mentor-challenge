@@ -3,8 +3,8 @@ import "./globals.css";
 
 const spacegrotesk = Space_Grotesk({
   subsets: ["latin"],
-  weight: ["500"],
-  variable: "--font-spacegrotesk"
+  weight: ["600"],
+  variable: "--font-space-grotesk"
 });
 
 
