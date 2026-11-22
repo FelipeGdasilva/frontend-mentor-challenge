@@ -7,7 +7,7 @@ interface FormProps {
 
 export default function CardForm() {
   return (
-    <form className="min-h-screen flex flex-col justify-center gap-5 w-full max-w-sm">
+    <form className="min-h-screen flex flex-col justify-center gap-5 w-full max-w-sm overflow-x-hidden">
       <div className="flex flex-col">
         <label className="py-2 text-base font-semibold text-purple-950">
           CARDHOLDER NAME
@@ -35,7 +35,7 @@ export default function CardForm() {
           <label className="py-2 text-base font-semibold text-purple-950 ">
             EXP. DATE (MM/YY)
           </label>
-          <div className="flex gap-2">
+          <div className="flex gap-4">
             <input
               type="text"
               className="border border-purple-950 rounded-lg py-2 px-3 w-16 pl-3 "
