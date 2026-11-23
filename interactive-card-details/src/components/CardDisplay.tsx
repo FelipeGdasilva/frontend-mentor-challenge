@@ -1,12 +1,12 @@
 import Image from "next/image";
 
- interface CardDisplayProps{
+interface CardDisplayProps {
   name: string;
   number: string;
   month: string;
   year: string;
   cvc: string;
- }
+}
 
 export default function CardDisplay() {
   return (
@@ -25,7 +25,6 @@ export default function CardDisplay() {
         className="hidden object-cover md:block"
       />
 
-      
       <div className="relative w-80 md:w-96 md:left-36  translate-x-10 mt-20 top-10 z-20">
         <Image
           src="/images/bg-card-front.png"
@@ -56,7 +55,6 @@ export default function CardDisplay() {
         </span>
       </div>
 
-    
       <div className="relative w-80 md:w-96 translate-x-10 ml-10 md:ml-20 md:mt-28 bottom-58  md:bottom-auto mb-29 z-10">
         <Image
           src="/images/bg-card-back.png"
