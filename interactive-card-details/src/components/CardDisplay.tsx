@@ -8,7 +8,7 @@ interface CardDisplayProps {
   cvc: string;
 }
 
-export default function CardDisplay() {
+export default function CardDisplay({name,number,month,year,cvc}: CardDisplayProps) {
   return (
     <section className="relative w-full h-60 md:w-96 md:h-screen">
       <Image

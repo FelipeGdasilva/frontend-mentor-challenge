@@ -11,5 +11,6 @@ export default function Home() {
         <CardForm />
       </div>
     </div>
+    
   );
 }

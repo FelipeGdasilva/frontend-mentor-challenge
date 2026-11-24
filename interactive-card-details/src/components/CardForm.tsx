@@ -1,11 +1,12 @@
-interface FormProps {
+interface CardFormProps {
   name: string;
-  numero: string;
-  date: string;
+  number: string;
+  month: string;
+  year: string;
   cvc: string;
 }
 
-export default function CardForm() {
+export default function CardForm( {name, number, month,year, cvc}: CardFormProps) {
   return (
     <form className="min-h-screen flex flex-col justify-center gap-5 w-full max-w-sm overflow-x-hidden">
       <div className="flex flex-col">
