@@ -43,15 +43,15 @@ export default function CardDisplay({name,number,month,year,cvc}: CardDisplayPro
         />
 
         <span className="absolute top-5 translate-y-20 translate-x-12 md:translate-x-20 tracking-widest text-lg md:text-xl text-white z-10">
-          0000 0000 0000 0000
+          { number || "0000 0000 0000 0000"}
         </span>
 
         <span className="absolute top-5 md:top-9 translate-y-32 translate-x-5 text-xs uppercase text-white z-10">
-          JANE APPLESEED
+          { name || "JANE APPLESEED"}
         </span>
 
         <span className="absolute top-5 md:top-9 translate-y-32 translate-x-60 md:translate-x-75 text-xs text-white z-10">
-          00/00
+         {month || "00"}/{year || ""}
         </span>
       </div>
 
@@ -65,7 +65,7 @@ export default function CardDisplay({name,number,month,year,cvc}: CardDisplayPro
         />
 
         <span className="absolute top-5 translate-y-15 md:translate-y-19 translate-x-60 md:translate-x-75 text-xs text-white z-10">
-          000
+          {cvc || "000"}
         </span>
       </div>
     </section>
