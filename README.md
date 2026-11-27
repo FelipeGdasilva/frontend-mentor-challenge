@@ -9,7 +9,7 @@ Este repositório reúne as minhas resoluções dos desafios do [Frontend Mentor
 | **01. Order Summary Card** | Next.js, Tailwind CSS | [Ver Projeto](https://order-summary-card-one.vercel.app/) |
 | **02. Huddle Landing Page** | Next.js, Tailwind CSS | [Ver Projeto](https://huddle-landing-page-indol-six.vercel.app/) |
 | **03. Conference Ticket Generator** | Next.js, TypeScript, Tailwind CSS, React Hooks | [Ver Projeto](https://frontend-mentor-challenge-bice.vercel.app/) |
-| **04. Interactive Card Details Form** | Next.js, TypeScript, Tailwind CSS, React Hooks | Em breve / Local |
+| **04. Interactive Card Details Form** | Next.js, TypeScript, Tailwind CSS, React Hooks | [Ver Projeto](https://interactive-card-details-one-murex.vercel.app/) |
 
 ---
 
@@ -23,6 +23,7 @@ Este repositório reúne as minhas resoluções dos desafios do [Frontend Mentor
 
 - **Repositório do projeto:** [frontend-mentor-challenge](https://github.com/FelipeGdasilva/frontend-mentor-challenge)
 - **Pasta do componente:** [`/interactive-card-details`](./interactive-card-details)
+- **Ver Projeto ao Vivo (Vercel):** [Interactive Card Details Form Demo](https://interactive-card-details-one-murex.vercel.app/)
 
 ### 💡 O que aprendi
 
