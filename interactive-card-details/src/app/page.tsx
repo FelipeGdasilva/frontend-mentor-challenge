@@ -56,6 +56,7 @@ export default function Home() {
   };
   return (
     <main className="min-h-screen flex flex-col md:flex-row">
+      <h1 className="sr-only">Interactive Card Details Form</h1>
       <div className=" w-full md:w-auto md:shrink-0 md:self-stretch flex flex-col justify-between">
         <CardDisplay
           name={name}

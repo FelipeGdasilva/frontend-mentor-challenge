@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
@@ -6,6 +7,11 @@ const spacegrotesk = Space_Grotesk({
   weight: ["600"],
   variable: "--font-space-grotesk",
 });
+
+export const metadata: Metadata = {
+  title: "Interactive Card Details Form",
+  description: "Interactive card details form built with Next.js, TypeScript, and Tailwind CSS.",
+};
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
