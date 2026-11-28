@@ -4,7 +4,7 @@ Solução para o desafio **Interactive Card Details Form** do Frontend Mentor, c
 
 ## Demonstração
 
-<!-- Substitua o caminho abaixo pelo seu GIF quando gravar -->
+
 ![Demonstração do formulário interativo](./public/preview.gif)
 
 ## Funcionalidades e lógica
